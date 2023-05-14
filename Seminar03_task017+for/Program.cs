@@ -4,9 +4,9 @@
 
 
 Console.Write("Введите х: ");                           // запрос ввода Х
-int x = int.Parse(Console.ReadLine());                  // прием под переменную Х введенного числа
+int x = Convert.ToInt32(Console.ReadLine());                  // прием под переменную Х введенного числа
 Console.Write("Введите y: ");                           // запрос ввода Y
-int y = int.Parse(Console.ReadLine());                  // прием под переменную Y введенного числа
+int y = Convert.ToInt32(Console.ReadLine());                  // прием под переменную Y введенного числа
 
 if (x > 0 && y > 0) Console.WriteLine("1");             // если Х больше 0, И Y больше 0, то  выводим на печать значение первой четверти->
 else if (x < 0 && y > 0) Console.WriteLine("2");        // если  Х меньше 0, И Y больше 0, то  выводим на печать значение второй четверти->

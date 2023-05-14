@@ -6,7 +6,7 @@
 
 // Вариант 1:
 Console.Write("Введите х: ");                               // запрос ввода числа
-int num = int.Parse(Console.ReadLine());                    // прием числа под переменную num
+int num = Convert.ToInt32(Console.ReadLine());                    // прием числа под переменную num
 
 if (num == 1) Console.WriteLine("x > 0 && y > 0");          // проверка условием, если num равна 1, то выводим на печать...
 else if (num == 2) Console.WriteLine("x < 0 && y > 0");     // проверка условием, если num равна 2, то выводим на печать...

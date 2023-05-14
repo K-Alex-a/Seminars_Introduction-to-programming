@@ -7,9 +7,9 @@
 //         8, 9  ->  нет
 
 Console.Write("Введите первое число А: ");        // запрос ввода числа А
-int a = int.Parse(Console.ReadLine());            // прием введенного числа под переменную а
+int a = Convert.ToInt32(Console.ReadLine());            // прием введенного числа под переменную а
 Console.Write("Введите второе число В: ");        // запрос ввода числа В
-int b = int.Parse(Console.ReadLine());            // прием введенного числа под переменную b
+int b = Convert.ToInt32(Console.ReadLine());            // прием введенного числа под переменную b
 
 if(a*a == b || b*b == a)                          // проверка двойная
 {

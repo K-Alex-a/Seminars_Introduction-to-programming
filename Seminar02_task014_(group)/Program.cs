@@ -9,7 +9,7 @@
 
 
 Console.Write("Введите любое число: ");     // запрос ввода числа
-int num = int.Parse(Console.ReadLine());    // прием переменной num
+int num = Convert.ToInt32(Console.ReadLine());    // прием переменной num
 int num1 = 7;                               // ввод переменно num1 со значение 7
 int num2 = 23;                              // ввод переменно num1 со значение 23
 

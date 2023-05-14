@@ -7,7 +7,7 @@
 
 // Вариант 1:
 Console.Write("Введите число: ");                   // запрос ввода числа
-int num = int.Parse(Console.ReadLine());            // прием введенного числа под переменную num
+int num = Convert.ToInt32(Console.ReadLine());            // прием введенного числа под переменную num
 
 for (int i = 1; i <= num; i++)                      // запуск цикла с условиями
 {

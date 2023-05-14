@@ -5,7 +5,7 @@
 // 89126 -> 5
 
 Console.Write("Введите число n: ");         // запрос ввода числа
-int n = int.Parse(Console.ReadLine());      // создаем переменную n, в которую вкладываем введенное число
+int n = Convert.ToInt32(Console.ReadLine());      // создаем переменную n, в которую вкладываем введенное число
 
 int Count(int number)                       // создание массива
 {

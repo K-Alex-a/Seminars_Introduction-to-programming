@@ -6,7 +6,7 @@
 
 // Вариант 1 ( без проверки на трехзначность):
 Console.Write("Введите число: ");                                    // запрос ввода числа
-int number = int.Parse(Console.ReadLine());                          // прием числа под переменную number
+int number = Convert.ToInt32(Console.ReadLine());                          // прием числа под переменную number
 
 int count = number % 10;                                             // присвоение переменной count остаток от деления на 10
 Console.WriteLine($"Последняя цифра числа {number} -> {count}");     // вывод на печать результата

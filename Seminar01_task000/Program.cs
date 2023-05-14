@@ -3,7 +3,7 @@
 // выдает его квадрат (число умноженное на само себя):
 
 Console.Write("Введите число: ");               // запрос ввода числа
-int number = int.Parse(Console.ReadLine());     // прием вводимого числа
+int number = Convert.ToInt32(Console.ReadLine());     // прием вводимого числа
 int result = number * number;                   // умножение числа на чисо и сохранение его под переменной result
 
 // Вывод в лоб

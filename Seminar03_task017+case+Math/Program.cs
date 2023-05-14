@@ -1,7 +1,7 @@
 ﻿// Про кейсы:
 
 Console.Write("Введите число: ");           // запрос на ввод числа
-int num = int.Parse(Console.ReadLine());    // прием числа под переменную num
+int num = Convert.ToInt32(Console.ReadLine());    // прием числа под переменную num
 
 switch (num)                                // подаем переменную на вход
 {

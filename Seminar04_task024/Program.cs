@@ -5,7 +5,7 @@
 // 8 -> 36
 
 Console.Write("Введите число A: ");
-int A = int.Parse(Console.ReadLine());
+int A = Convert.ToInt32(Console.ReadLine());
 
 int Sum(int num)
 {

@@ -3,7 +3,7 @@
 // Пример: 
 
 Console.Write("Введите число от 1 до 7: ");               // выводит на экран запрс на ввод числа
-int number = int.Parse(Console.ReadLine());               // прием введенного числа под переменную number
+int number = Convert.ToInt32(Console.ReadLine());               // прием введенного числа под переменную number
 
 if (number == 1)                                          // проверяем равно ли введенное число 1
 { Console.WriteLine("Понедельник"); }                     // если равно, то выводим на печать день недели
