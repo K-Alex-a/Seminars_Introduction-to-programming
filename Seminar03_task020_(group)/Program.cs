@@ -26,14 +26,14 @@
 
 // Вариант 2:
 Console.WriteLine("Введите координаты точки 1: ");       // запрос ввода координат точки 1
-string[] sArr = Console.ReadLine().Split(' ');           // вывод на печать строкой через пробел
-int num1 = Convert.ToInt32(sArr[0]);                     // прием первого числа под переменную num1
-int num2 = Convert.ToInt32(sArr[1]);                     // прием второго числа под переменную num2
+string[]? sArr = Console.ReadLine()?.Split(' ');           // вывод на печать строкой через пробел
+int num1 = Convert.ToInt32(sArr?[0]);                     // прием первого числа под переменную num1
+int num2 = Convert.ToInt32(sArr?[1]);                     // прием второго числа под переменную num2
 
 Console.WriteLine("Введите координаты точки 2: ");       // запрос ввода координат точки 2
-string[] sArr2 = Console.ReadLine().Split(' ');          // вывод на печать строкой через пробел
-int num3 = Convert.ToInt32(sArr2[0]);                    // прием первого числа под переменную num3
-int num4 = Convert.ToInt32(sArr2[1]);                    // прием первого числа под переменную num4
+string[]? sArr2 = Console.ReadLine()?.Split(' ');          // вывод на печать строкой через пробел
+int num3 = Convert.ToInt32(sArr2?[0]);                    // прием первого числа под переменную num3
+int num4 = Convert.ToInt32(sArr2?[1]);                    // прием первого числа под переменную num4
 
 double result = Math.Round(Math.Sqrt(Math.Pow((num3 - num1), 2)+ Math.Pow((num4 - num2),2)), 3);         // расчет по формуле
 Console.Write(result);                                   // вывод на печать результата

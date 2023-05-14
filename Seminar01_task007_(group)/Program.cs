@@ -14,9 +14,9 @@ Console.WriteLine($"Последняя цифра числа {number} -> {count}
 
 // Вариант 2 через строку:
 Console.Write("Введите число: ");                                // запрос ввода числа
-string anyNumberText = Console.ReadLine();                       // прием переменной в строке
+string? anyNumberText = Console.ReadLine();                       // прием переменной в строке
 int anyNumber = Convert.ToInt32(anyNumberText);                  // конвертирование строки под переменную anyNumber
-if (anyNumberText.Length > 2)                                    // проверка введенного числа на трехзначность
+if (anyNumberText?.Length > 2)                                    // проверка введенного числа на трехзначность
 {
     Console.WriteLine("Третья цифра " + anyNumberText[2]);       // если проверка пройдена, то выводим на печать результат с индексом 2 (третья цифра стркои)
 }

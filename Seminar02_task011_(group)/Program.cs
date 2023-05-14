@@ -35,5 +35,5 @@
 
 // Вариант 4 (чере строку напрямую (без конвертации)):
 Console.Write("Input a three-digit number: ");
-string number = Console.ReadLine();
-Console.WriteLine("{0}{1}", number[0], number[2]);
+string? number = Console.ReadLine();
+Console.WriteLine("{0}{1}", number?[0], number?[2]);
